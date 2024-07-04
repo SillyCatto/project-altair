@@ -1,0 +1,1 @@
+## Go to the respective folders of the tasks for solutions. Folders have their own readme for explanations
