@@ -11,7 +11,7 @@ Here I have a simple publisher node which publishes the string message "Hello Wo
 
 Node graph:
 
-![png](task1_node_graph.png)
+![png](images/task1_node_graph.png)
 
 Run the task:\
 `roslaunch task1_pub_sub task1.launch`
@@ -53,7 +53,7 @@ Here I created a `/turtle_controller` node which publishes twist messages on the
 
 Node graph:
 
-![png](task2_node_graph.png)
+![png](images/task2_node_graph.png)
 
 Commands are:
 
@@ -77,7 +77,7 @@ Finally, I have `/video_subscriber` node which subscribes to the topic and recei
 
 Node graph:
 
-![png](task3_node_graph.png)
+![png](images/task3_node_graph.png)
 
 Run the task:\
 `roslaunch task3_rtsp_video_stream task3.launch`
