@@ -1,0 +1,16 @@
+<launch>
+    <arg name="cmd" default="A" />
+    <node
+        name="turtlesim"
+        pkg="turtlesim"
+        type="turtlesim_node"
+        output="screen"/>
+
+    <node
+        name="turtle_controller"
+        pkg="task2_turtle"
+        type="turtle_controller.py"
+        output="screen">
+            <param name="cmd" type="string" value="$(arg cmd)" />
+    </node>
+</launch>
