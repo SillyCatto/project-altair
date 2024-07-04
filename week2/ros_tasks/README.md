@@ -2,7 +2,7 @@
 
 # Solutions to ROS tasks for week2
 ---
-
+Each task are organized in their own catkin packages inside `src`
 All the tasks are configured with their respective launch files.
 
 ## Task 1
