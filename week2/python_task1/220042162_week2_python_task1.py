@@ -1,6 +1,6 @@
 # 220042162 week2 python task1 graph trversal in shortest path
 # I'll use Dijkstra's algorithm for this
-# [please pass an input.txt file to it]
+# [please place an input.txt file next to it]
 
 
 import sys
