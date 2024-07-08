@@ -71,7 +71,7 @@ def move(cmd):
 if __name__ == "__main__":
     try:
         # initialize the node before fetching the parameter
-        # other it will only fetch the default value
+        # otherwise it will only fetch the default value
         rospy.init_node("turtle_controller")
         cmd = str(rospy.get_param("~cmd", "A")).upper()
         move(cmd)
